@@ -1,0 +1,17 @@
+{
+  "name": "ethereum-web3-get-balance",
+  "dependencies": {
+    "web3": "^1.0.0-beta.52"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "npm run build && npx surge dist kevin-web3-get-balance.surge.sh",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsimper/ethereum-web3-get-balance.git"
+  },
+  "browser": "last 2 Chrome versions"
+}
